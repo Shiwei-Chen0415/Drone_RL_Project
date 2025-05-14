@@ -1,5 +1,10 @@
-Drone Navigation using LiDAR and SAC in Isaac Gym
+# Drone Navigation using LiDAR and SAC in Isaac Gym
 
-Project Overview
+**Project Overview**
 
-This project implements a GPU-accelerated reinforcement learning system for drone navigation using NVIDIA Isaac Gym. The drone learns to reach its goal while avoiding obstacles using 6-direction LiDAR sensing and the Soft Actor-Critic (SAC) algorithm.
+This project implements a GPU-accelerated reinforcement learning system for drone navigation using NVIDIA Isaac Gym Preview 4 platform.
+The drone learns to reach its goal while avoiding obstacles using 6-direction rotatable LiDAR sensing and the Soft Actor-Critic (SAC) algorithm.
+
+**Features**
+
+
