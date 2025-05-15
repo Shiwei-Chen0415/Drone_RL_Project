@@ -8,7 +8,7 @@ The drone learns to reach its goal while avoiding obstacles using 6-direction mu
 ## Features
 1. **GPU-accelerated parallel simulation** using Isaac Gym (up to 10,000 drone environments).
 
-2. **LiDAR sensor module** with 6-directional raycasting and slab-based AABB collision detection, featuring direction-adjustable scanning adaptable to drone heading or user control.
+2. **6 Directions LiDAR sensor module** with 6-directional raycasting and slab-based AABB collision detection, featuring direction-adjustable scanning adaptable to drone heading or user control.
 
 3. **Soft Actor-Critic (SAC)** for robust, sample-efficient policy learning.
 
