@@ -77,6 +77,18 @@ Plots both raw and smoothed curves
 
 Save figures
 
+## Visual Testing (with Trained Model)
+To visualize how the trained agent performs:
+```bash
+python Visual_Test.py
+```
+This will:
+Loads sac_parallel_model.zip
+
+Opens a 3D viewer showing 4 parallel drones
+
+Prints average reward and active environments per step
+
 ## Dependencies
 
 Python = 3.8
