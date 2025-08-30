@@ -5,6 +5,8 @@
 This project implements a GPU-accelerated reinforcement learning system for drone navigation using NVIDIA Isaac Gym Preview 4 platform.
 The drone learns to reach its goal while avoiding obstacles using 6-direction multi-deck LiDAR sensing and the Soft Actor-Critic (SAC) algorithm.
 
+(**All introductions and procedures can be found in Drone_RL_Project_Presentation.pptx**)
+
 ## Features
 1. **GPU-accelerated parallel simulation** using Isaac Gym (up to 10,000 drone environments).
 
@@ -33,6 +35,21 @@ The drone learns to reach its goal while avoiding obstacles using 6-direction mu
 6. **Visual_Test.py**: Visualizes pre-trained models in Isaac Gym viewer.
 
 7. **Draw.py**: Reward smoothing and plotting after training.
+
+![Main Structure](Images/Main_Structure.png)
+
+## LiDAR Principle
+
+
+**SLAB Method**
+![SLAB1](Images/SLAB_Method1.png)
+![SLAB2](Images/SLAB_Method2.png)
+![SLAB3](Images/SLAB_Method3.png)
+
+**LiDAR Configuration**
+![Lidar1](Images/Lidar1.png)
+![Lidar2](Images/Lidar2.png)
+
 ## LiDAR Verification
 To test LiDAR accuracy during waypoint navigation:
 ```bash
@@ -88,7 +105,7 @@ Loads sac_parallel_model.zip
 Opens a 3D viewer showing 4 parallel drones
 
 Prints average reward and active environments per step
-
+![Issac_Env_example](Images/IssacGym.jpg)
 ## Dependencies
 
 Python = 3.8
